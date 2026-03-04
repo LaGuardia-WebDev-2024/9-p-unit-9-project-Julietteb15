@@ -1,3 +1,4 @@
+//Include Mouse X and Mouse Y
 setup = function() {
     size(400, 400);
 };
