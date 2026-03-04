@@ -1,6 +1,6 @@
-//Include Mouse X and Mouse Y
-setup = function() {
-    size(400, 400);
+setup= function() {
+
+size(400, 400);
 };
 
 var answer = 1;
@@ -30,6 +30,12 @@ draw = function(){
   } else {
     text("ask chat gbt", 165, 210);
   }
+
+  
+  if(mousePressed){
+    text("🎱", random(0,600),random(0,400))
+  }
+  
 };
 
 mouseClicked = function(){
