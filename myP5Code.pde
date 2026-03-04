@@ -16,7 +16,8 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   
   fill(255, 255, 255);
-  
+ 
+  //if and else
   if (answer === 1) {
     text("I guess bro", 180, 210);
   } else if (answer === 2) {
