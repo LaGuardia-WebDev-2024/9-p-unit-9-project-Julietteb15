@@ -31,7 +31,6 @@ draw = function(){
     text("ask chat gbt", 165, 210);
   }
 
-  
   if(mousePressed){
     text("🎱", random(0,600),random(0,400))
   }
