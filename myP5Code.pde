@@ -26,7 +26,7 @@ draw = function(){
   } else if (answer === 3) {
     text("5 big booms", 170, 210);
   } else if (answer === 4) {
-    text("meh", 155, 210);
+    text("like maybe", 155, 210);
   } else {
     text("ask chat gbt", 165, 210);
   }
